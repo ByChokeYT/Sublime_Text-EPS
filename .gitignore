@@ -1,0 +1,47 @@
+# Caché de archivos de imagen de Windows
+Thumbs.db
+ehthumbs.db
+
+# Archivo de configuración de carpetas
+Desktop.ini
+
+# Papelera de reciclaje usada en comparticiones de archivos
+$RECYCLE.BIN/
+
+# Archivos de instalación de Windows
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Accesos directos de Windows
+*.lnk
+
+# =========================
+# Archivos del sistema operativo
+# =========================
+
+# OSX
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Miniaturas
+._*
+
+# Archivos que pueden aparecer en la raíz de un volumen
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Directorios potencialmente creados en recursos compartidos remotos AFP
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk

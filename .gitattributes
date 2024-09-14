@@ -1,0 +1,17 @@
+# Auto detectar archivos de texto y realizar normalización de LF (Line Feed, cambio de línea)
+* text=auto
+
+# Configuración personalizada para Visual Studio
+*.cs diff=csharp   # Archivos .cs (C#) usarán el algoritmo de diferencia de C#
+
+# Configuración estándar para msysgit (Sistema de Git en Windows)
+*.doc diff=astextplain   # Los archivos .doc se tratarán como texto simple para mostrar diferencias
+*.DOC diff=astextplain   # Los archivos .DOC (en mayúsculas) también se tratarán como texto simple
+*.docx diff=astextplain   # Los archivos .docx (formato de Word más nuevo) se tratarán como texto simple
+*.DOCX diff=astextplain   # Los archivos .DOCX en mayúsculas también se tratarán como texto simple
+*.dot diff=astextplain   # Los archivos .dot (plantillas de Word) se tratarán como texto simple
+*.DOT diff=astextplain   # Los archivos .DOT en mayúsculas también se tratarán como texto simple
+*.pdf diff=astextplain   # Los archivos .pdf se tratarán como texto simple para mostrar diferencias
+*.PDF diff=astextplain   # Los archivos .PDF en mayúsculas también se tratarán como texto simple
+*.rtf diff=astextplain   # Los archivos .rtf (Rich Text Format) se tratarán como texto simple
+*.RTF diff=astextplain   # Los archivos .RTF en mayúsculas también se tratarán como texto simple
